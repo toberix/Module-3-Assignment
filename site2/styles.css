@@ -10,7 +10,6 @@ h1 {
 }
 
 body {
-	background-image: url("background.jpg");
 	background-color: #FEF5CA;
 
 }
@@ -61,32 +60,28 @@ section {
 	padding: 5px;
 }
 
-#sushi {
-	border: 1px solid black;
+#Quote3 {
 	text-align: center;
-	width: 30%;
-	margin-left: 70%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
-	background-color: #6495ED;
 	color: white;
 	padding: 5px;
 }
 
-#chicken-div {
+#quote1-div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-#beef-div {
+#quote2-div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-#sushi-div {
+#quote3-div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
