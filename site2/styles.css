@@ -10,6 +10,7 @@ h1 {
 }
 
 body {
+	background-image: url("background.jpg");
 	background-color: #FEF5CA;
 
 }
@@ -40,47 +41,59 @@ section {
 }
 
 #Quote1 {
+	border: 1px solid black;
 	text-align: center;
+	width: 30%;
+	margin-left: 70%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	
+	background-color: #FFFF00;
 }
 
 #Quote2 {
+	border: 1px solid black;
 	text-align: center;
+	width: 30%;
+	margin-left: 70%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
+	background-color: #FF1439;
 }
 
 #Quote3 {
+	border: 1px solid black;
 	text-align: center;
+	width: 30%;
+	margin-left: 70%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
+	background-color: #6495ED;
+	color: white;
 	padding: 5px;
 }
 
-#quote1-div {
+#Quote1-div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-#quote2-div {
+#Quote2-div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-#quote3-div {
+#Quote3-div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -88,11 +101,13 @@ section {
 .navbar-brand {
   font-size: 2em;
   border: 0 0 10px 10px;
-  color: #f219d3;
+  color: #FFFFFF;
 }
 
 #header-nav {
   border: 0;
+  background-color: #FC5F06;
+  color: #FFFFFF;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -101,4 +116,26 @@ section {
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
+}
+
+.nav-header {
+  background-color: #FFFFFF;
+}
+
+.nav-brand {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+#nav-list {
+  color: white;
+}
+
+hr {
+  border-color: white;
+}
+
+.item {
+  color: white;
+  font-size: 1.2em;
 }
