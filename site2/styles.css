@@ -41,7 +41,6 @@ section {
 }
 
 #Quote1 {
-	border: 1px solid black;
 	text-align: center;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
@@ -52,18 +51,14 @@ section {
 	
 }
 
-#beef {
-	border: 1px solid black;
+#Quote2 {
 	text-align: center;
-	width: 30%;
-	margin-left: 70%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FF1439;
 }
 
 #sushi {
